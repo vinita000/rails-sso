@@ -1,0 +1,6 @@
+
+<div>
+    <%= button_to 'Sign Up', '/auth/auth0', method: :post, data: {turbo: "false"}, class: 'button__sign-up' %>  
+    <%= button_to 'Log In', '/auth/auth0', method: :post, data: {turbo: "false"}, class: 'button__login' %>   
+    <%= button_to 'Log Out', logout_path, method: :get, data: {turbo: "false"}, class: 'button__logout' %>
+</div>
